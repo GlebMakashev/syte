@@ -1,0 +1,34 @@
+body {font-family:Arial, sans-serif;
+    font-size: 13px;
+    background-color: aquamarine;
+    color: blueviolet
+    }
+h1 {color:bisque;
+    font-size: 19px;
+    border: 10px;
+    width: 400px;
+    animation: color-change 2s infinite;}
+img {height: 150px;
+    border-radius: 50px;
+    box-shadow: 10px 5px 10px #888888;
+animation: radius-change 1s infinite;}
+@keyframes color-change {
+    0% {color: red; }
+    33% {color: blue; }
+    66% {color: violet; }
+    100% {color: yellow; }
+}
+@keyframes radius-change {
+    0% { border-radius: 0%;}
+    12% { border-radius: 12%;}
+    25% { border-radius: 25%;}
+    37% { border-radius: 37%;}
+    50% { border-radius: 50%;}
+    63% { border-radius: 37%;}
+    75% { border-radius: 25%;}
+    87% { border-radius: 12%;}
+    100% { border-radius: 0%;}
+
+
+
+}
